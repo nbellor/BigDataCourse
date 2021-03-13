@@ -13131,7 +13131,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Se considera el modelo $$y=\alpha + \beta x $$ el cual describe una recta con pendiente $\beta$ e intercepto en el eje $y$, $\alpha$. En lo general dicha relación entre variables no se mantiene exactamente y a las desviaciones las llamamos errores. Supongamos que se tienen $n$ observaciones. Podemos describir la relación entre $x$ y $y$, involucrando los errores $\varepsilon_i$ de la siguiente forma $$y_i = \alpha + \beta x_i + \varepsilon_i.$$ El objetivo es estimar valores $\hat \alpha$ y $\hat \beta$ que sean los 'mejores' en algún sentido para el conjunto de observaciones. En esta ocasión buscamos minimizar la suma de los cuadrados de los residuales $\hat \varepsilon_i = y_i - \alpha - \beta x_i$ =, esto es: $$\min_{\alpha, \beta} \sum_{i=1}^{n} \hat \varepsilon_i $$</p>
+<p>Se considera el modelo $$y=\alpha + \beta x $$ el cual describe una recta con pendiente $\beta$ e intercepto en el eje $y$, $\alpha$. En lo general dicha relación entre variables no se mantiene exactamente y a las desviaciones las llamamos errores. Supongamos que se tienen $n$ observaciones. Podemos describir la relación entre $x$ y $y$, involucrando los errores $\varepsilon_i$ de la siguiente forma $$y_i = \alpha + \beta x_i + \varepsilon_i.$$ El objetivo es estimar valores $\hat \alpha$ y $\hat \beta$ que sean los 'mejores' en algún sentido para el conjunto de observaciones. En esta ocasión buscamos minimizar la suma de los cuadrados de los residuales $\hat \varepsilon_i = y_i - \alpha - \beta x_i$ , esto es: $$\min_{\alpha, \beta} \sum_{i=1}^{n} \hat \varepsilon_i $$</p>
 
 </div>
 </div>
@@ -13236,7 +13236,7 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[12]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">from</span> <span class="nn">sklearn.linear_model</span> <span class="k">import</span> <span class="n">LinearRegression</span> <span class="k">as</span> <span class="n">lm</span>
@@ -13283,7 +13283,7 @@ intercepto estimado  -0.5694326730396502
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[15]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">Y_pred</span> <span class="o">=</span> <span class="n">lm1</span><span class="o">.</span><span class="n">predict</span><span class="p">(</span><span class="n">X</span><span class="p">)</span>
